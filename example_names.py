@@ -1,7 +1,7 @@
 from xiuxian_names_generator import XiuXianNameGenerator, RARITY_NAMES, CREATURE_CATEGORY_NAMES
 
 def main():
-    generator = XiuXianNameGenerator(data_dir="/home/rikka/xiuxian/data/xiuxian/修仙随机名词数据")
+    generator = XiuXianNameGenerator(data_dir="data")
     
     print("========== 修仙名称生成示例 ==========")
     
